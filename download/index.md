@@ -58,10 +58,21 @@ includeDaticalBox: true
 </table>
 <table>
 <tr>
-<td style="width:75%; text-align: right; padding-right: 30px" colspan="2">
-    <a href="https://github.com/liquibase/liquibase/releases/download/liquibase-parent-3.5.3/liquibase-3.5.3-bin.zip" style="font-weight: bold; font-size: larger" onclick="trackOutboundLink(this, 'Download 3.5.3', 'github.com'); return false;">Download liquibase-3.5.3-bin.zip</a><br>
-    <a href="https://github.com/liquibase/liquibase/releases/download/liquibase-parent-3.5.3/liquibase-3.5.3-bin.tar.gz" style="font-weight: bold; font-size: larger" onclick="trackOutboundLink(this, 'Download 3.5.3', 'github.com'); return false;">Download liquibase-3.5.3-bin.tar.gz</a></td>
-<td style="width:25%"><center><a href="http://www.datical.com/liquibase" target="_blank" style="font-weight: bold; font-size: larger" onClick="trackOutboundLink(this, 'Datical', 'Liquibase RFI'); return false;">Learn more about<br/>Datical DB >></a></center></td>
+	<td style="width:100%; text-align:right; padding-right: 20px" >
+		<a href="http://www.datical.com/liquibase" target="_blank" style="font-weight: normal;" onClick="trackOutboundLink(this, 'Datical', 'Liquibase RFI'); return false;">Learn more about Datical </a>
+    </td>
+</tr>
+<tr>
+	<td>
+    	<script src="//app-ab14.marketo.com/js/forms2/js/forms2.min.js"></script>
+		<form id="mktoForm_1524"></form>
+		<script>MktoForms2.loadForm("//app-ab14.marketo.com", "522-INH-443", 1524);</script>
+	</td>
+</tr>
+<tr>
+	<td style="width=100%; text-align:right; padding-right:20px;">
+    	<a href="#ldownload" style="font-weight: normal;">No Thanks, Skip to Download</a>
+    </td>
 </tr>
 </table>
 
@@ -157,3 +168,12 @@ Copyright (C) 2006-{{ site.time | date: "%Y" }}  Nathan Voxland
 This library is free software; you can redistribute it and/or modify it under the terms of the Apache License, Version 2.0.
 
 This library is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+<p><a name="ldownload">Download Liquibase</a></p>
+<table>
+<tr>
+<td style="width:75%; text-align: right; padding-right: 30px" colspan="2">
+    <a href="https://github.com/liquibase/liquibase/releases/download/liquibase-parent-3.5.3/liquibase-3.5.3-bin.zip" style="font-weight: bold; font-size: larger" onclick="trackOutboundLink(this, 'Download 3.5.3', 'github.com'); return false;">Download liquibase-3.5.3-bin.zip</a><br>
+    <a href="https://github.com/liquibase/liquibase/releases/download/liquibase-parent-3.5.3/liquibase-3.5.3-bin.tar.gz" style="font-weight: bold; font-size: larger" onclick="trackOutboundLink(this, 'Download 3.5.3', 'github.com'); return false;">Download liquibase-3.5.3-bin.tar.gz</a></td>
+<td style="width:25%"><center><a href="http://www.datical.com/liquibase/" target="_blank" style="font-weight: bold; font-size: larger" onClick="trackOutboundLink(this, 'Datical', 'Liquibase RFI'); return false;">Learn more about Datical DB >></a></center></td>
+</tr>
+</table>
